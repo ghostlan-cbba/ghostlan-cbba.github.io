@@ -13,5 +13,5 @@ div.crop-img img {
     max-width: none !important;
 }
 hr{
-    border-top: 1px solid #4a3a5f;
+    border-top: 1px dashed #4a3a5f;
 }
