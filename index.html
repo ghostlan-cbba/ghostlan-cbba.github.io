@@ -7,6 +7,8 @@
     <title>Ghostlan servicios de red y sistemas de seguridad</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,8 +17,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="bg-success">
+  <body class="bg-success" ng-app="myApp">
     <h1 class="text-info text-center">Servicios de red </h1>
+        <a href="#Soluciones">Soluciones</a>
+        <a href="#Contactanos">Contactanos</a>
+        <div ng-view></div>
         <ol>
             
             <li>portal cautivo</li>
@@ -32,7 +37,7 @@
             <li>scripts</li>
         </ol>
         <hr class="text-warning">
-        <h3 class="text-success">restriccion de sitios web</h3>
+        <h3 class="text-success"> Restricci&oacute;n de sitios web</h3>
         <div class="row">
             <div class="col-xs-5 ">
                 <div class="crop-img"  style="width: 480px;">
@@ -40,11 +45,11 @@
                 </div>
             </div>
             <div class="col-xs-7 text-info" >
-                <p><strong>uso tipico:</strong><br>
+                <p><strong>Soluci&oacute;n A:</strong><br>
                 restriccion de sitios web</p></div>
         </div> 
         <hr class="text-warning">
-        <h3 class="text-success">cableado estructurado</h3>
+        <h3 class="text-success"> Cableado Estructurado</h3>
         <div class="row">
             <div class="col-xs-5 ">
                 <div class="crop-img"  style="width: 480px;">
@@ -52,11 +57,11 @@
                 </div>
             </div>
             <div class="col-xs-7 text-info">
-                <p><strong>Soluciones comunes:</strong><br>
+                <p class="text-justify"><strong>Soluci&oacute;n A:</strong><br>
                 restriccion de sitios web</p></div>
         </div>
         <hr class="text-warning">
-        <h3 class="text-success">vlan</h3>
+        <h3 class="text-success"> Vlan</h3>
         <div class="row">
             <div class="col-xs-5 ">
                 <div class="crop-img"  style="width: 480px;">
@@ -64,11 +69,11 @@
                 </div>
             </div>
             <div class="col-xs-7 text-info">
-                <p class="text-justify" ><strong>Soluciones comunes:</strong><br>
+                <p class="text-justify" ><strong>Soluci&oacute;n A:</strong><br>
                 restriccion de sitios web</p></div>
         </div>
         <hr class="text-warning">
-        <h3 class="text-success">enrutamiento</h3>
+        <h3 class="text-success"> Enrutamiento</h3>
         <div class="row">
             <div class="col-xs-5 ">
                 <div class="crop-img"  style="width: 480px;">
@@ -76,12 +81,12 @@
                 </div>
             </div>
             <div class="col-xs-7 text-info">
-                <p><strong>Soluciones comunes:</strong><br>
+                <p class="text-justify"><strong>Soluci&oacute;n A:</strong><br>
                 restriccion de sitios web</p></div>
         </div>
       
       
-        <footer class="text-center text-info">este sitio aun esta en construccion, elaborado por Grover Plaza Quiroga </footer>    
+        <footer class="text-center text-info"> este sitio aun esta en construcci&oacute;n, elaborado por Grover Plaza Quiroga </footer>    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
