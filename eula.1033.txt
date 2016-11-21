@@ -1,0 +1,19 @@
+SERVICIO EN REDES
+-restriccion de sitios web
+-cableado estructurado
+-vlan
+-enrutamiento
+-portal cautivo
+-cortafuegos
+-control de ancho de banda sobre servicios
+-balanceo de carga
+-ipsec
+-enmascaramiento de red
+-redireccionamiento
+-monitoreo de red
+-enlaces inalambricos
+-redes mesh
+-scripts
+
+https://ghostlan-cbba.github.io/#/r7
+
