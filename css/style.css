@@ -8,6 +8,7 @@ body{
 }
 .row a{
   display: block;
+  margin: 1em;
 }
 .shadow{
   background: hsla(0, 100%, 0%, 0.80);
