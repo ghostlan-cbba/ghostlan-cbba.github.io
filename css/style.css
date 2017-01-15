@@ -17,8 +17,8 @@ body{
   border: .1em dashed white;
 }
 .shadow{
-  background: hsla(0, 100%, 0%, 0.80);
-  color: hsla(130,100%, 60%, 1);
+  background: hsla(0, 100%, 0%, 0.88);
+  color: hsla(130,100%, 40%, 1);
   height: 100%;
 }
 div.crop-img {
