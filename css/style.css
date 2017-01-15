@@ -1,6 +1,6 @@
 body{
-  padding: 1 em;
-  background: hsla(240,100%, 30%, .3);
+  padding: 1em;
+  background: hsla(240,100%, 10%, .3);
 }
 .row{
   background: url(../img/network.svg)
@@ -11,6 +11,10 @@ body{
   display: block;
   margin: 1em;
   font-size: 1.4em;
+}
+.row img{
+  border-color: hsla(240,100%, 20%, .3);
+  border-radius: 1em;
 }
 .btnh{
   border: .1em dashed white;
