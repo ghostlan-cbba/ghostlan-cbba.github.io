@@ -1,6 +1,6 @@
 body{
   padding: 1em;
-  background: hsla(240,100%, 10%, .3);
+  background: hsla(240,100%, 25%, .4);
 }
 .row{
   background: url(../img/network.svg)
@@ -12,10 +12,7 @@ body{
   margin: 1em;
   font-size: 1.4em;
 }
-.row img{
-  border-color: hsla(240,100%, 20%, .3);
-  border-radius: 1em;
-}
+
 .btnh{
   border: .1em dashed white;
 }
@@ -30,6 +27,7 @@ div.crop-img {
     margin: 0 auto;
     padding: 0;
     position: relative;
+    border: thin solid hsla(0, 100%, 0%, 1);
 }
 div.crop-img img {
     display: block;
