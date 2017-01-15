@@ -10,6 +10,9 @@ body{
   display: block;
   margin: 1em;
 }
+.btnh{
+  border: .1 em solid black;
+}
 .shadow{
   background: hsla(0, 100%, 0%, 0.80);
   color: hsla(120,100%, 60%, 1)
