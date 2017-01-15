@@ -9,6 +9,7 @@ body{
 .row a{
   display: block;
   margin: 1em;
+  font-size: 1.4em;
 }
 .btnh{
   border: .1 em solid black;
