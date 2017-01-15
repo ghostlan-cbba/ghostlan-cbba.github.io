@@ -12,12 +12,12 @@ body{
   font-size: 1.4em;
 }
 .btnh{
-  border: .1 em solid black;
+  border: .1em dashed white;
 }
 .shadow{
   background: hsla(0, 100%, 0%, 0.80);
   color: hsla(120,100%, 60%, 1);
-  margin: 0 auto;
+  height: 100%;
 }
 div.crop-img {
     max-width: 100%;
