@@ -6,6 +6,9 @@ body{
   
   
 }
+.row a{
+  display: block;
+}
 .shadow{
   background: hsla(0, 100%, 0%, 0.80);
   color: hsla(120,100%, 60%, 1)
