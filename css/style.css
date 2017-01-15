@@ -16,7 +16,8 @@ body{
 }
 .shadow{
   background: hsla(0, 100%, 0%, 0.80);
-  color: hsla(120,100%, 60%, 1)
+  color: hsla(120,100%, 60%, 1);
+  margin: 0 auto;
 }
 div.crop-img {
     max-width: 100%;
