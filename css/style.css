@@ -1,6 +1,6 @@
 body{
   padding: 1 em;
-  background: black;
+  background: hsla(130,100%, 0%, .8);
 }
 .row{
   background: url(../img/network.svg)
