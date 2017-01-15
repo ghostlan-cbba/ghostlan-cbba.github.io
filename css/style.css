@@ -1,5 +1,6 @@
 body{
   padding: 1 em;
+  background: black;
 }
 .row{
   background: url(../img/network.svg)
@@ -16,7 +17,7 @@ body{
 }
 .shadow{
   background: hsla(0, 100%, 0%, 0.80);
-  color: hsla(120,100%, 60%, 1);
+  color: hsla(130,100%, 60%, 1);
   height: 100%;
 }
 div.crop-img {
