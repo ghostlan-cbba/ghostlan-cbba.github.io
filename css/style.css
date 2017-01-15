@@ -27,7 +27,8 @@ div.crop-img {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    border: .8em solid hsla(0, 0%, 4%, 1);
+    border: .7em solid hsla(0, 0%, 4%, 1);
+    border-radius: .4em;
 }
 div.crop-img img {
     display: block;
