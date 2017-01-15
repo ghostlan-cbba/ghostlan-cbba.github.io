@@ -1,6 +1,6 @@
 body{
   padding: 1em;
-  background: hsla(240,100%, 25%, .4);
+  background: hsla(240,50%, 8%, 1);
 }
 .row{
   background: url(../img/network.svg)
@@ -27,7 +27,7 @@ div.crop-img {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    border: thin solid hsla(0, 100%, 0%, 1);
+    border: .2em solid hsla(0, 100%, 0%, 1);
 }
 div.crop-img img {
     display: block;
